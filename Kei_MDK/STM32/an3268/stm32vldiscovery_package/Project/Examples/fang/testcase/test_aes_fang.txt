@@ -1,0 +1,98 @@
+
+
+--------------------------
+testing AES 128-bit CBC mode...
+key128  (16):           64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34
+IV  (16):       8e 31 8d 69 fa da 4a 20 aa e6 1b a1 af cc 82 fa
+plaintxt(70):           54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 77 6c 79
+ 2c 20 61 73 20 69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 65 20 69 74 20 7
+7 61 73 20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e
+plaintxt(70):           The sun rose slowly, as if it wasn't sure it was worth a
+ll the effort.
+ciphertxt(80):          83 33 e4 9f f2 5c 9d ed 13 34 1a ed 3a 93 2a 08 80 fa f3
+ 74 4e 55 45 10 b4 04 db b4 cb 49 a7 22 1c e6 2a 7c 30 06 de 46 bc 44 51 a6 fa c
+6 e2 e9 ed 64 06 55 aa 1a c1 28 b2 fe 3f d2 88 97 29 3d 14 fe 12 8c b9 7a a3 6c
+fb 04 1b 87 d6 e9 98 a1
+decryptedtxt(70):       54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 77 6c 79
+ 2c 20 61 73 20 69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 65 20 69 74 20 7
+7 61 73 20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e
+decryptedtxt(70):       The sun rose slowly, as if it wasn't sure it was worth a
+ll the effort.
+decryption successfully.
+
+
+
+
+
+------------------------------
+
+testing AES 128-bit one block...
+key128 (16):            00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+IV (16): 0
+plaintxt(16):           00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff
+cipherxt(16):           69 c4 e0 d8 6a 7b 04 30 d8 cd b7 80 70 b4 c5 5a
+decrypted(16):          00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff
+cipher successfully.
+decryption successfully.
+
+
+
+------------------------------
+
+testing AES 128-bit CBC mode...
+key128  (16):           00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+IV (16): 0
+plaintxt(10):           00 11 22 33 44 55 66 77 88 99
+ciphertxt(16):          b4 68 2b 01 51 67 03 64 2f 4e cc c7 af 84 38 07
+decryptedtxt(10):       00 11 22 33 44 55 66 77 88 99
+decryption successfully.
+
+
+testing AES 128-bit CBC mode...
+key128  (16):           00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+IV (16): 0
+plaintxt(16):           00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff
+ciphertxt(32):          69 c4 e0 d8 6a 7b 04 30 d8 cd b7 80 70 b4 c5 5a 9e 97 8e
+ 6d 16 b0 86 57 0e f7 94 ef 97 98 42 32
+decryptedtxt(16):       00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff
+decryption successfully.
+
+
+
+testing AES 128-bit CBC mode...
+key128  (16):           00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+IV (16): 0
+plaintxt(17):           00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 00
+ciphertxt(32):          69 c4 e0 d8 6a 7b 04 30 d8 cd b7 80 70 b4 c5 5a a7 a1 d5
+ 44 22 26 41 f0 08 09 8f 62 3d ae 0f c4
+decryptedtxt(17):       00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 00
+decryption successfully.
+
+
+testing AES 128-bit CBC mode...
+key128  (16):           00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+IV (16): 0
+plaintxt(32):           00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 00 11 22
+ 33 44 55 66 77 88 99 aa bb cc dd ee ff
+ciphertxt(48):          69 c4 e0 d8 6a 7b 04 30 d8 cd b7 80 70 b4 c5 5a 7d 77 86
+ be 32 d0 59 a6 0c a8 02 1a 65 dd 9f 09 60 c8 60 f6 bc 67 c4 11 fc 64 4d 2e 69 d
+9 39 51
+decryptedtxt(32):       00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 00 11 22
+ 33 44 55 66 77 88 99 aa bb cc dd ee ff
+decryption successfully.
+
+testing AES 128-bit CBC mode...
+key128  (16):           00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f
+IV (16): 0
+plaintxt(33):           00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 00 11 22
+ 33 44 55 66 77 88 99 aa bb cc dd ee ff 00
+ciphertxt(48):          69 c4 e0 d8 6a 7b 04 30 d8 cd b7 80 70 b4 c5 5a 7d 77 86
+ be 32 d0 59 a6 0c a8 02 1a 65 dd 9f 09 b9 ec 4a 5c f6 b2 82 82 1c 47 07 ab f3 0
+d 51 f0
+decryptedtxt(33):       00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 00 11 22
+ 33 44 55 66 77 88 99 aa bb cc dd ee ff 00
+decryption successfully.
+
+
+
+

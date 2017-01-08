@@ -1,0 +1,6 @@
+
+stm32f10x_conf.h
+stm32f10x_it.h
+stm32f10x_it.h
+
+three files are copied from ./Flash Program/ directory, and put here with my flash.c flash.h.

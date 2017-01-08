@@ -1,0 +1,169 @@
+
+testing new Pack...
+key128  (16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+plaintxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+plaintxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+SenderCounter(4):     	
+00 00 00 00 
+input block for HMAC(16):     	
+00 00 00 00 00 00 00 46 54 68 65 20 73 75 6e 20 
+output block for HMAC(16):     	
+c5 a0 60 e3 2e 52 a2 43 45 59 d4 c5 32 c5 11 64 
+input block for HMAC(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block for HMAC(16):     	
+e4 69 16 72 2d 6e 1a 46 5c 68 d1 48 dd 64 a7 da 
+input block for HMAC(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block for HMAC(16):     	
+6e af a1 40 45 91 35 bc d6 2a fe c0 9f d1 67 08 
+input block for HMAC(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block for HMAC(16):     	
+c7 49 7b 94 e9 74 49 a5 1c 4f 7e dd 66 3b 28 77 
+input block for HMAC(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block for HMAC(16):     	
+58 b9 54 93 de 58 a8 e5 71 d4 38 57 1d 47 5e 65 
+input block for HMAC(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block for HMAC(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+pack_step:HMAC_BLOCK--------------->(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+pack_step:choose HMAC=------------->(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+input block for Encryption(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+IV or output block(16):     	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+input block for Encryption(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+IV or output block(16):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+input block for Encryption(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+IV or output block(16):     	
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+input block for Encryption(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+IV or output block(16):     	
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+input block for Encryption(16):     	
+66 66 6f 72 74 2e 53 fa 9c 64 d0 10 98 ef b2 b0 
+IV or output block(16):     	
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+input block for Encryption(16):     	
+49 bb 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 
+IV or output block(16):     	
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+packedtxt(96):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+c6 59 bf 85 6e e7 2a 96 d3 09 86 91 42 2a b3 35 
+new Pack successfully.
+input block for Decryption(16):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+output block(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+input block for Decryption(16):     	
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+output block(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+input block for Decryption(16):     	
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+output block(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+input block for Decryption(16):     	
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+output block(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+input block for Decryption(16):     	
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+output block(16):     	
+66 66 6f 72 74 2e 53 fa 9c 64 d0 10 98 ef b2 b0 
+input block for Decryption(16):     	
+c6 59 bf 85 6e e7 2a 96 d3 09 86 91 42 2a b3 35 
+output block(2):     	
+49 bb 
+unpack_step:decryptedLen=82<-------
+input block for HMAC(16):     	
+00 00 00 00 00 00 00 46 54 68 65 20 73 75 6e 20 
+output block for HMAC(16):     	
+c5 a0 60 e3 2e 52 a2 43 45 59 d4 c5 32 c5 11 64 
+input block for HMAC(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block for HMAC(16):     	
+e4 69 16 72 2d 6e 1a 46 5c 68 d1 48 dd 64 a7 da 
+input block for HMAC(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block for HMAC(16):     	
+6e af a1 40 45 91 35 bc d6 2a fe c0 9f d1 67 08 
+input block for HMAC(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block for HMAC(16):     	
+c7 49 7b 94 e9 74 49 a5 1c 4f 7e dd 66 3b 28 77 
+input block for HMAC(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block for HMAC(16):     	
+58 b9 54 93 de 58 a8 e5 71 d4 38 57 1d 47 5e 65 
+input block for HMAC(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block for HMAC(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+unpack_step:matched MAC=--------->(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+unpackedtxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+unpackedtxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+new unPack successfully.
+
+testing previous Packing with AES and MAC...
+key128  (16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+plaintxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+plaintxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+SenderCounter(4):     	
+00 00 00 00 
+pack:outMAC(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+pack:choose MAC=(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+packedtxt(96):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+c6 59 bf 85 6e e7 2a 96 d3 09 86 91 42 2a b3 35 
+unpack:compute MAC block(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+unpack:compute  MAC=(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+unpack:retrieve MAC=(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+unpackedtxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+unpackedtxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.

@@ -1,0 +1,39 @@
+1. SHA-1 hash
+
+String: Quis custodiet ipsos custodes?
+Expected result of SHA-1 hash (160 bits): 0D 54 D3 1E 9B F6 70 9B 8A AB 84 34 DF 27 D3 EF AF 66 E4 B2 
+
+
+2. SHA-1 hash
+
+String: Quis custodiet ipsos custodes qui custodes custodient?
+Expected result of SHA-1 hash (160 bits): 5E 7A 77 14 F0 36 D8 33 29 23 8B 69 E2 B7 D2 E2 72 9E DA A8 
+
+
+3. AES128 encrypt / decrypt
+
+Mode: AES/CBC/PKCS5Padding
+
+Key (128 bits):
+{
+	(byte) 0x64, (byte) 0x5D, (byte) 0xFB, (byte) 0x2D,
+	(byte) 0x8A, (byte) 0xB7, (byte) 0x1C, (byte) 0x88,
+	(byte) 0x4C, (byte) 0xEE, (byte) 0xF5, (byte) 0x59,
+	(byte) 0xAF, (byte) 0xC8, (byte) 0x82, (byte) 0x34
+}
+
+IV (128 bits):
+{
+	(byte) 0x8E, (byte) 0x31, (byte) 0x8D, (byte) 0x69,
+	(byte) 0xFA, (byte) 0xDA, (byte) 0x4A, (byte) 0x20, 
+	(byte) 0xAA, (byte) 0xE6, (byte) 0x1B, (byte) 0xA1,
+	(byte) 0xAF, (byte) 0xCC, (byte) 0x82, (byte) 0xFA
+}
+
+String: The sun rose slowly, as if it wasn't sure it was worth all the effort.
+
+Expected result of encrypted bytes (80 bytes):
+83 33 E4 9F F2 5C 9D ED 13 34 1A ED 3A 93 2A 08 80 FA F3 74 4E 55 45 10 B4 04 DB B4 CB 49 A7 22 1C E6 2A 7C 30 06 DE 46 BC 44 51 A6 FA C6 E2 E9 ED 64 06 55 AA 1A C1 28 B2 FE 3F D2 88 97 29 3D 14 FE 12 8C B9 7A A3 6C FB 04 1B 87 D6 E9 98 A1 
+
+Expected result of decrypted bytes (70 bytes):
+54 68 65 20 73 75 6E 20 72 6F 73 65 20 73 6C 6F 77 6C 79 2C 20 61 73 20 69 66 20 69 74 20 77 61 73 6E 27 74 20 73 75 72 65 20 69 74 20 77 61 73 20 77 6F 72 74 68 20 61 6C 6C 20 74 68 65 20 65 66 66 6F 72 74 2E 

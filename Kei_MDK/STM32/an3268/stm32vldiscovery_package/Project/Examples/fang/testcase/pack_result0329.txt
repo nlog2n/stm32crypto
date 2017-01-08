@@ -1,0 +1,176 @@
+
+testing new Pack...
+key128  (16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+plaintxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+plaintxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+SenderCounter(4):     	
+00 00 00 00 
+HMAC_step:offset =0, myOffset = 0
+input block(16):     	
+00 00 00 00 46 00 00 00 54 68 65 20 73 75 6e 20 
+output block(16):     	
+81 8d 56 f7 1f a5 49 6a 24 be 27 c1 57 77 5e e1 
+HMAC_step:offset =8, myOffset = 16
+input block(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block(16):     	
+43 1b 25 ba 83 c3 a5 f2 ec a0 78 98 b8 d9 f6 ad 
+HMAC_step:offset =24, myOffset = 32
+input block(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block(16):     	
+2a 92 99 e4 cc 68 df 37 7d 71 ba 0d fe 2e ea cd 
+HMAC_step:offset =40, myOffset = 48
+input block(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block(16):     	
+80 81 79 5d 2b c3 f5 9a 2f c5 3a 39 7b 15 40 1b 
+HMAC_step:offset =56, myOffset = 64
+input block(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block(16):     	
+43 48 db fd 7f e6 e9 d6 c7 ba bf 3d 78 e0 58 c4 
+HMAC_step:offset =69, myOffset = 80
+input block(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block(16):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 57 ab 51 ae 
+HMAC_step:offset =69, myOffset = 96
+MCUpack_step:HMAC_BLOCK(16):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 57 ab 51 ae 
+MCUpack_step:choose HMAC=(12):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 
+AES_ENC_MAC_step:offset =0, myOffset = 0
+input block(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+IV(16):     	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+AES_ENC_MAC_step:offset =16, myOffset = 16
+input block(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+IV(16):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+AES_ENC_MAC_step:offset =32, myOffset = 32
+input block(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+IV(16):     	
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+AES_ENC_MAC_step:offset =48, myOffset = 48
+input block(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+IV(16):     	
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+AES_ENC_MAC_step:offset =64, myOffset = 64
+input block(16):     	
+66 66 6f 72 74 2e a5 56 ce d4 44 ae 9a 18 63 4c 
+IV(16):     	
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+AES_ENC_MAC_step:offset =80, myOffset = 80
+input block(16):     	
+c2 5e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 
+IV(16):     	
+ef 1a 04 a9 cc da 76 6c ca 9a 82 d8 12 59 31 29 
+AES_ENC_MAC_step:offset =96, myOffset = 96
+packedtxt(96):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+ef 1a 04 a9 cc da 76 6c ca 9a 82 d8 12 59 31 29 
+86 82 ad 7c e1 21 8b 49 99 a4 5c f7 89 d9 20 7e 
+new Pack successfully.
+AES_DEC_step:input block(16):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+AES_DEC_step:input block(16):     	
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+AES_DEC_step:input block(16):     	
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+AES_DEC_step:input block(16):     	
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+AES_DEC_step:input block(16):     	
+ef 1a 04 a9 cc da 76 6c ca 9a 82 d8 12 59 31 29 
+AES_DEC_step:input block(16):     	
+86 82 ad 7c e1 21 8b 49 99 a4 5c f7 89 d9 20 7e 
+MCUunpack_step:decryptedLen=82
+HMAC_step:offset =0, myOffset = 0
+input block(16):     	
+00 00 00 00 46 00 00 00 54 68 65 20 73 75 6e 20 
+output block(16):     	
+81 8d 56 f7 1f a5 49 6a 24 be 27 c1 57 77 5e e1 
+HMAC_step:offset =8, myOffset = 16
+input block(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block(16):     	
+43 1b 25 ba 83 c3 a5 f2 ec a0 78 98 b8 d9 f6 ad 
+HMAC_step:offset =24, myOffset = 32
+input block(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block(16):     	
+2a 92 99 e4 cc 68 df 37 7d 71 ba 0d fe 2e ea cd 
+HMAC_step:offset =40, myOffset = 48
+input block(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block(16):     	
+80 81 79 5d 2b c3 f5 9a 2f c5 3a 39 7b 15 40 1b 
+HMAC_step:offset =56, myOffset = 64
+input block(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block(16):     	
+43 48 db fd 7f e6 e9 d6 c7 ba bf 3d 78 e0 58 c4 
+HMAC_step:offset =69, myOffset = 80
+input block(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block(16):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 57 ab 51 ae 
+HMAC_step:offset =69, myOffset = 96
+MCUunpack_step:matched MAC=(12):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 
+unpackedtxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+unpackedtxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+new unPack successfully.
+
+testing previous Packing with AES and MAC...
+key128  (16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+plaintxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+plaintxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+SenderCounter(4):     	
+00 00 00 00 
+pack:outMAC(16):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 57 ab 51 ae 
+pack:choose MAC=(12):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 
+packedtxt(96):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+ef 1a 04 a9 cc da 76 6c ca 9a 82 d8 12 59 31 29 
+86 82 ad 7c e1 21 8b 49 99 a4 5c f7 89 d9 20 7e 
+unpack:outMAC(16):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 57 ab 51 ae 
+unpack:choose MAC=(12):     	
+a5 56 ce d4 44 ae 9a 18 63 4c c2 5e 
+unpackedtxt(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+unpackedtxt(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.

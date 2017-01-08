@@ -1,0 +1,238 @@
+aaaaaa=513aaaaaa (4):     	
+01 02 00 00 
+
+test MCU work flow.
+input block for HMAC(16):     	
+00 00 00 00 00 00 00 46 54 68 65 20 73 75 6e 20 
+output block for HMAC(16):     	
+c5 a0 60 e3 2e 52 a2 43 45 59 d4 c5 32 c5 11 64 
+input block for HMAC(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block for HMAC(16):     	
+e4 69 16 72 2d 6e 1a 46 5c 68 d1 48 dd 64 a7 da 
+input block for HMAC(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block for HMAC(16):     	
+6e af a1 40 45 91 35 bc d6 2a fe c0 9f d1 67 08 
+input block for HMAC(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block for HMAC(16):     	
+c7 49 7b 94 e9 74 49 a5 1c 4f 7e dd 66 3b 28 77 
+input block for HMAC(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block for HMAC(16):     	
+58 b9 54 93 de 58 a8 e5 71 d4 38 57 1d 47 5e 65 
+input block for HMAC(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block for HMAC(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+pack_step:HMAC_BLOCK--------------->(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+pack_step:choose HMAC=------------->(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+input block for Encryption(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+IV or output block(16):     	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+input block for Encryption(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+IV or output block(16):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+input block for Encryption(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+IV or output block(16):     	
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+input block for Encryption(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+IV or output block(16):     	
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+input block for Encryption(16):     	
+66 66 6f 72 74 2e 53 fa 9c 64 d0 10 98 ef b2 b0 
+IV or output block(16):     	
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+input block for Encryption(16):     	
+49 bb 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 
+IV or output block(16):     	
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+packedtxt4DCU(96):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+c6 59 bf 85 6e e7 2a 96 d3 09 86 91 42 2a b3 35 
+input block for HMAC(16):     	
+00 00 00 04 00 00 00 46 54 68 65 20 73 75 6e 20 
+output block for HMAC(16):     	
+62 c5 2d cb e1 b2 ac 08 1a a6 5d e1 53 f5 d6 48 
+input block for HMAC(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block for HMAC(16):     	
+5a 34 3a 86 7f 7c 00 bc 0b a0 22 f8 07 cf 77 36 
+input block for HMAC(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block for HMAC(16):     	
+86 cf 63 c6 db 4c c1 14 77 88 5e 78 11 22 9a cb 
+input block for HMAC(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block for HMAC(16):     	
+82 ad 4f 10 73 83 92 d1 72 3e b9 78 d7 5a 23 95 
+input block for HMAC(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block for HMAC(16):     	
+19 83 c7 c4 4d 01 1e df 53 d0 ff 7b 7b dd 49 96 
+input block for HMAC(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block for HMAC(16):     	
+06 41 1a c9 2c 05 a0 bc 43 68 e5 6f 57 6a f0 4f 
+pack_step:HMAC_BLOCK--------------->(16):     	
+06 41 1a c9 2c 05 a0 bc 43 68 e5 6f 57 6a f0 4f 
+pack_step:choose HMAC=------------->(12):     	
+06 41 1a c9 2c 05 a0 bc 43 68 e5 6f 
+input block for Encryption(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+IV or output block(16):     	
+00 00 00 04 00 00 00 04 00 00 00 04 00 00 00 04 
+input block for Encryption(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+IV or output block(16):     	
+90 54 0f a7 d2 7d de ec 5e 06 e8 98 a9 c2 8b 6a 
+input block for Encryption(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+IV or output block(16):     	
+5f b6 ea 0c 13 c2 c1 b3 e3 8c 50 7d 49 1e 8d 89 
+input block for Encryption(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+IV or output block(16):     	
+35 15 9b 62 46 51 96 4c 84 d9 73 ac 64 e2 fe 5f 
+input block for Encryption(16):     	
+66 66 6f 72 74 2e 06 41 1a c9 2c 05 a0 bc 43 68 
+IV or output block(16):     	
+f7 8c 6b 2e ee a2 97 5a 09 d1 57 60 68 cd f6 20 
+input block for Encryption(16):     	
+e5 6f 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 
+IV or output block(16):     	
+b0 06 e2 47 b3 67 b5 d1 53 aa c2 f1 bd 33 f5 9d 
+packedtxt4NMS(96):     	
+90 54 0f a7 d2 7d de ec 5e 06 e8 98 a9 c2 8b 6a 
+5f b6 ea 0c 13 c2 c1 b3 e3 8c 50 7d 49 1e 8d 89 
+35 15 9b 62 46 51 96 4c 84 d9 73 ac 64 e2 fe 5f 
+f7 8c 6b 2e ee a2 97 5a 09 d1 57 60 68 cd f6 20 
+b0 06 e2 47 b3 67 b5 d1 53 aa c2 f1 bd 33 f5 9d 
+6b 53 3e 23 a8 9a 77 61 0b ac a2 bf 10 32 3c fc 
+input block for Decryption(16):     	
+ce db da f0 22 b5 cd 37 86 3a f6 8e bd c4 d0 b4 
+output block(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+input block for Decryption(16):     	
+66 2b e9 0c 2e b4 d1 ad 34 29 66 01 ed 31 fb 06 
+output block(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+input block for Decryption(16):     	
+03 bc 4f 11 22 33 c5 4e 2e e6 6e c0 9a 93 9b 12 
+output block(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+input block for Decryption(16):     	
+be d6 f3 9c 95 bd 60 5e 1d dd 54 ad 7d 53 15 df 
+output block(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+input block for Decryption(16):     	
+88 b4 d0 df f1 67 9a 42 13 a0 12 e1 77 37 11 d8 
+output block(16):     	
+66 66 6f 72 74 2e 53 fa 9c 64 d0 10 98 ef b2 b0 
+input block for Decryption(16):     	
+c6 59 bf 85 6e e7 2a 96 d3 09 86 91 42 2a b3 35 
+output block(2):     	
+49 bb 
+unpack_step:decryptedLen=82<-------
+input block for HMAC(16):     	
+00 00 00 00 00 00 00 46 54 68 65 20 73 75 6e 20 
+output block for HMAC(16):     	
+c5 a0 60 e3 2e 52 a2 43 45 59 d4 c5 32 c5 11 64 
+input block for HMAC(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block for HMAC(16):     	
+e4 69 16 72 2d 6e 1a 46 5c 68 d1 48 dd 64 a7 da 
+input block for HMAC(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block for HMAC(16):     	
+6e af a1 40 45 91 35 bc d6 2a fe c0 9f d1 67 08 
+input block for HMAC(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block for HMAC(16):     	
+c7 49 7b 94 e9 74 49 a5 1c 4f 7e dd 66 3b 28 77 
+input block for HMAC(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block for HMAC(16):     	
+58 b9 54 93 de 58 a8 e5 71 d4 38 57 1d 47 5e 65 
+input block for HMAC(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block for HMAC(16):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb b2 08 57 db 
+unpack_step:matched MAC=--------->(12):     	
+53 fa 9c 64 d0 10 98 ef b2 b0 49 bb 
+unpackedtxt4DCU(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+unpackedtxt4DCU(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
+input block for Decryption(16):     	
+90 54 0f a7 d2 7d de ec 5e 06 e8 98 a9 c2 8b 6a 
+output block(16):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+input block for Decryption(16):     	
+5f b6 ea 0c 13 c2 c1 b3 e3 8c 50 7d 49 1e 8d 89 
+output block(16):     	
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+input block for Decryption(16):     	
+35 15 9b 62 46 51 96 4c 84 d9 73 ac 64 e2 fe 5f 
+output block(16):     	
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+input block for Decryption(16):     	
+f7 8c 6b 2e ee a2 97 5a 09 d1 57 60 68 cd f6 20 
+output block(16):     	
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+input block for Decryption(16):     	
+b0 06 e2 47 b3 67 b5 d1 53 aa c2 f1 bd 33 f5 9d 
+output block(16):     	
+66 66 6f 72 74 2e 06 41 1a c9 2c 05 a0 bc 43 68 
+input block for Decryption(16):     	
+6b 53 3e 23 a8 9a 77 61 0b ac a2 bf 10 32 3c fc 
+output block(2):     	
+e5 6f 
+unpack_step:decryptedLen=82<-------
+input block for HMAC(16):     	
+00 00 00 04 00 00 00 46 54 68 65 20 73 75 6e 20 
+output block for HMAC(16):     	
+62 c5 2d cb e1 b2 ac 08 1a a6 5d e1 53 f5 d6 48 
+input block for HMAC(16):     	
+72 6f 73 65 20 73 6c 6f 77 6c 79 2c 20 61 73 20 
+output block for HMAC(16):     	
+5a 34 3a 86 7f 7c 00 bc 0b a0 22 f8 07 cf 77 36 
+input block for HMAC(16):     	
+69 66 20 69 74 20 77 61 73 6e 27 74 20 73 75 72 
+output block for HMAC(16):     	
+86 cf 63 c6 db 4c c1 14 77 88 5e 78 11 22 9a cb 
+input block for HMAC(16):     	
+65 20 69 74 20 77 61 73 20 77 6f 72 74 68 20 61 
+output block for HMAC(16):     	
+82 ad 4f 10 73 83 92 d1 72 3e b9 78 d7 5a 23 95 
+input block for HMAC(16):     	
+6c 6c 20 74 68 65 20 65 66 66 6f 72 74 2e 00 00 
+output block for HMAC(16):     	
+19 83 c7 c4 4d 01 1e df 53 d0 ff 7b 7b dd 49 96 
+input block for HMAC(16):     	
+64 5d fb 2d 8a b7 1c 88 4c ee f5 59 af c8 82 34 
+output block for HMAC(16):     	
+06 41 1a c9 2c 05 a0 bc 43 68 e5 6f 57 6a f0 4f 
+unpack_step:matched MAC=--------->(12):     	
+06 41 1a c9 2c 05 a0 bc 43 68 e5 6f 
+unpackedtxt4NMS(70):     	
+54 68 65 20 73 75 6e 20 72 6f 73 65 20 73 6c 6f 
+77 6c 79 2c 20 61 73 20 69 66 20 69 74 20 77 61 
+73 6e 27 74 20 73 75 72 65 20 69 74 20 77 61 73 
+20 77 6f 72 74 68 20 61 6c 6c 20 74 68 65 20 65 
+66 66 6f 72 74 2e 
+unpackedtxt4NMS(70) in string:     	The sun rose slowly, as if it wasn't sure it was worth all the effort.
